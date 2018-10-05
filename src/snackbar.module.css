@@ -4,7 +4,6 @@
   right: 24px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   align-items: center;
   margin: 8px;
   padding: 6px 24px;
@@ -36,12 +35,10 @@
   outline: none;
   position: relative;
   user-select: none;
-  align-items: center;
-  vertical-align: middle;
-  justify-content: center;
   color: inherit;
   text-decoration: none;
   background-color: transparent;
+  margin-left: 24px;
 }
 
 .button:hover {
