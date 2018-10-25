@@ -14,7 +14,7 @@ export default class Player extends Component {
       <div className={styles.container}>
         <video
           className={styles.player}
-          src="http://techslides.com/demos/sample-videos/small.mp4"
+          src={this.props.source}
           ref={this.playerRef}
         />
 

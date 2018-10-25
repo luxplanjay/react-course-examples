@@ -3,7 +3,7 @@ import Player from './player';
 
 const App = () => (
   <Fragment>
-    <Player />
+    <Player source="http://techslides.com/demos/sample-videos/small.mp4" />
   </Fragment>
 );
 
