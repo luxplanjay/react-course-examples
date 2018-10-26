@@ -19,11 +19,12 @@ export default class App extends Component {
 
     return (
       <div className={styles.container}>
-        <Snackbar
-          isOpen={isSnackbarOpen}
-          message="You have 15 unread messages!"
-          onClose={this.toggleSnackbar}
-        />
+        {isSnackbarOpen && (
+          <Snackbar
+            message="You have 15 unread messages!"
+            onClose={this.toggleSnackbar}
+          />
+        )}
 
         <Button label="Toggle Snackbar" onClick={this.toggleSnackbar} />
       </div>
