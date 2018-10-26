@@ -12,7 +12,6 @@ export default class Snackbar extends Component {
   }
 
   componentWillUnmount() {
-    console.log('unmount');
     snackbarRoot.removeChild(this.element);
   }
 
